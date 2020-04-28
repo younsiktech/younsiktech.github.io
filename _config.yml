@@ -16,7 +16,7 @@
 title: Younsik.Tech
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/younsiktech"
+baseurl: "/"
 url: "https://younsiktech.github.io"
 permalink: /:year/:month/:day/:title
 repository: younsiktech/younsiktech.github.io
