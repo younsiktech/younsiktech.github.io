@@ -26,10 +26,10 @@ paginate: 5
 github_profile: "https://github.com/younsiktech"
 user: "Younsik Choi"
 user_email: "younsik.tech@gmail.com"
-contact_url: ""
-google_tracking_id: ""
-google_site_verification: ""
-disqus_shortname: "younsiktech"
+#contact_url: ""
+#google_tracking_id: ""
+#google_site_verification: ""
+#disqus_shortname: "younsiktech"
 
 # Build settings
 markdown: kramdown
