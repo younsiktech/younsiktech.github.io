@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "스프링 IoC란?"
+title:  "스프링 IoC(Inversion of Control)"
 date:   2020-05-06 10:39:24
 categories: oop
 tags: oop 
@@ -71,7 +71,7 @@ tags: oop
 
 #### 요약
 
-1. 작업을 수행하는 쪽에서 object를 생성하는 제어 흐름의 개념을 거꾸로 뒤집는다.
-2. IoC에서는 obejct가 자신이 사용할 object를 생성하거나 선택하지 않는다.
-3. object는 자신이 어떻게 생성되고 어떻게 사용되는지 알 수 없다.
-4. 모든 object는 제어 권한을 위임받는 특별한 object에 의해서 만들어지고 사용된다.
+- 작업을 수행하는 쪽에서 object를 생성하는 제어 흐름의 개념을 거꾸로 뒤집는다.
+- IoC에서는 obejct가 자신이 사용할 object를 생성하거나 선택하지 않는다.
+- object는 자신이 어떻게 생성되고 어떻게 사용되는지 알 수 없다.
+- 모든 object는 제어 권한을 위임받는 특별한 object에 의해서 만들어지고 사용된다.
