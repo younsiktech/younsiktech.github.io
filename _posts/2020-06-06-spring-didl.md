@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "스프링 DI & DL"
-date:   2020-05-06 17:08:24
+date:   2020-06-06 17:08:24
 categories: spring
 tags: spring di dl
 ---

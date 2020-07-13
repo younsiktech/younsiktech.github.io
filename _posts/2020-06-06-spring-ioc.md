@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "스프링 IoC(Inversion of Control)"
-date:   2020-05-06 10:39:24
+date:   2020-06-06 10:39:24
 categories: spring
 tags: spring ioc
 ---
@@ -31,13 +31,13 @@ tags: spring ioc
 
 - 일반적인 클래스 호출
 
-  ![001](/images/20200506/class-call-001.jpeg)
+  ![001](/images/20200606/class-call-001.jpeg)
 
   클래스 내에서 선언과 구현이 한 몸이기때문에 다양한 형태로 변화가 불가능하다.
 
 - 인터페이스를 이용한 클래스 호출
 
-  ![002](/images/20200506/class-call-002.jpeg)
+  ![002](/images/20200606/class-call-002.jpeg)
 
   클래스를 인터페이스와 구현 클래스로 분리를 하였다.
 
@@ -45,7 +45,7 @@ tags: spring ioc
 
 - 팩토리 패턴을 이용한 클래스 호출
 
-  ![003](/images/20200506/class-call-003.jpeg)
+  ![003](/images/20200606/class-call-003.jpeg)
 
   팩토리 패턴 방식은 팩토리가 구현 클래스를 생성하므로 클래스는 팩토리를 호출하는 코드로 충분하다.
 
@@ -55,7 +55,7 @@ tags: spring ioc
 
 - IoC를 이용한 클래스 호출
 
-  ![004](/images/20200506/class-call-004.jpeg)
+  ![004](/images/20200606/class-call-004.jpeg)
 
   팩토리 패턴의 장점을 더하여 어떠한 것에도 의존하지 않는 형태로 구성이 가능하다.
 
