@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "애플리케이션 아키텍처 요약"
+title:  "애플리케이션 아키텍처 - 웹큐작업자 아키텍처"
 date:   2020-05-08 13:22:23
 categories: architecture
 tags: architecture web-queue-worker
