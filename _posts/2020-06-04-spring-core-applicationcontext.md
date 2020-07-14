@@ -3,7 +3,7 @@ layout: post
 title:  "스프링 - Core - ApplicationContext"
 date:   2020-06-04 10:08:24
 categories: spring
-tags: spring core
+tags: spring core bean
 ---
 
 ## 빈 설정

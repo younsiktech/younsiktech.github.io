@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spring - 인코딩 UTF-8 설정"
+title:  "스프링 - 인코딩 - UTF-8 설정"
 date:   2020-06-18 14:11:43
 categories: spring
 tags: spring encoding utf8

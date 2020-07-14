@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "스프링 IoC(Inversion of Control)"
+title:  "스프링 - Core - IoC(Inversion of Control)"
 date:   2020-06-06 10:39:24
 categories: spring
-tags: spring ioc
+tags: spring core bean
 ---
 
 스프링에서의 제어의 역전(Inversion of Control : IoC)는 기존에 개발자가 제어하던 프로그램의 흐름을 프레임워크가 주도하여 객체의 생성부터 생명 주기 관리를 컨테이너가 하게된다.

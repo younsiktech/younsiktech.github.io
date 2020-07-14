@@ -3,7 +3,7 @@ layout: post
 title:  "스프링 - Core - Autowired"
 date:   2020-06-04 11:08:24
 categories: spring
-tags: spring core
+tags: spring core bean
 ---
 
 ## Autowired

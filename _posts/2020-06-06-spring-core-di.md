@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "스프링 DI & DL"
+title:  "스프링 - Core - DI & DL"
 date:   2020-06-06 17:08:24
 categories: spring
-tags: spring di dl
+tags: spring core bean
 ---
 
 #### DL (Dependency Lookup : 의존성 검색)
