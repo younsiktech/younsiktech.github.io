@@ -95,7 +95,7 @@ commit 되지 않은 데이터, 즉 신뢰성 없는 데이터를 읽을 수 있
 
 #### update 부정합
 
-{% highlight sql lineos %}
+~~~ sql {.line-numbers}
     START TRANSACTION; -- transaction id : 1
     SELECT * FROM User WHERE name='younsik1';
 
@@ -106,7 +106,7 @@ commit 되지 않은 데이터, 즉 신뢰성 없는 데이터를 읽을 수 있
 
     UPDATE User SET name = 'younsik3' WHERE name = 'younsik1'; -- 0 row(s) affected
     COMMIT;
-{% endhighlight %}
+~~~
 
 최종 결과 name=younsik2가 된다.
 REPETABLE READ이기 때문에, 2번 트랜잭션에서 name = younsik2로 변경하고 COMMIT을 하면 name = younsik의 내용을 언두로그에 남겨놔야 한다.
