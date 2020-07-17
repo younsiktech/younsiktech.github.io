@@ -34,11 +34,11 @@ contact_url: "https://docs.google.com/forms/d/e/1FAIpQLSfdLLnc9RBeOINLwBS6fIWdVG
 # Build settings
 markdown: kramdown
 
-kramdown:
-  highlighter: rouge
-  syntax_highlighter_opts:
-      block:
-          line_numbers: true
+# kramdown:
+#   highlighter: rouge
+#   syntax_highlighter_opts:
+#       block:
+#           line_numbers: true
 
 gems:
   - jekyll-feed
