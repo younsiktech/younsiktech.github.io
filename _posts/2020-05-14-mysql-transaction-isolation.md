@@ -95,7 +95,7 @@ commit 되지 않은 데이터, 즉 신뢰성 없는 데이터를 읽을 수 있
 
 #### update 부정합
 
-~~~ sql lineos
+~~~ sql
     START TRANSACTION; -- transaction id : 1
     SELECT * FROM User WHERE name='younsik1';
 
