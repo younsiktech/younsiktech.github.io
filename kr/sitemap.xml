@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://younsiktech.github.io/kr/notes/go/basic/introduction/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/notes/go/basic/introduction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/notes/go/basic/introduction/"
-                />
-  </url><url>
     <loc>https://younsiktech.github.io/kr/notes/go/basic/</loc>
     <lastmod>2022-04-15T16:38:59+09:00</lastmod>
     <xhtml:link
@@ -41,60 +28,8 @@
                 href="https://younsiktech.github.io/kr/notes/go/advanced/"
                 />
   </url><url>
-    <loc>https://younsiktech.github.io/kr/notes/go/basic/types/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/notes/go/basic/types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/notes/go/basic/types/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/notes/go/basic/flow-control/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/notes/go/basic/flow-control/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/notes/go/basic/flow-control/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/notes/go/advanced/files/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/notes/go/advanced/files/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/notes/go/advanced/files/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/notes/bash/basic/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/notes/bash/basic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/notes/bash/basic/"
-                />
-  </url><url>
     <loc>https://younsiktech.github.io/kr/posts/spring/spring-base/base-sample/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -107,7 +42,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/tags/basic/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
+    <lastmod>2022-04-23T02:27:05+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -120,7 +55,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/categories/basic/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T02:27:05+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -133,7 +68,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/spring/spring-boot/boot-sample/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -146,7 +81,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/categories/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T02:27:05+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -159,7 +94,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/spring/spring-cloud/cloud-sample/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -172,7 +107,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/tags/content-organization/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -184,21 +119,8 @@
                 href="https://younsiktech.github.io/kr/tags/content-organization/"
                 />
   </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/introduction/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/introduction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/introduction/"
-                />
-  </url><url>
     <loc>https://younsiktech.github.io/kr/tags/markdown/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -211,7 +133,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/tags/multi-lingual/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T02:27:05+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -223,8 +145,21 @@
                 href="https://younsiktech.github.io/kr/tags/multi-lingual/"
                 />
   </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/smalltalk/</loc>
+    <lastmod>2022-04-23T02:27:05+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/smalltalk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/smalltalk/"
+                />
+  </url><url>
     <loc>https://younsiktech.github.io/kr/tags/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
+    <lastmod>2022-04-23T02:27:05+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -237,7 +172,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/</loc>
-    <lastmod>2022-04-23T01:03:31+09:00</lastmod>
+    <lastmod>2022-04-23T02:29:04+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -250,7 +185,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/cloud/aws/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -262,8 +197,21 @@
                 href="https://younsiktech.github.io/kr/posts/cloud/aws/"
                 />
   </url><url>
+    <loc>https://younsiktech.github.io/kr/notes/bash/</loc>
+    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/notes/bash/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/notes/bash/"
+                />
+  </url><url>
     <loc>https://younsiktech.github.io/kr/posts/cloud/</loc>
-    <lastmod>2022-04-23T00:52:54+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -276,7 +224,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/container/</loc>
-    <lastmod>2022-04-23T00:52:54+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -289,7 +237,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/database/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -302,7 +250,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/container/docker/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -315,7 +263,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/elk/elasticsearch/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -328,7 +276,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/elk/</loc>
-    <lastmod>2022-04-23T00:52:54+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -341,7 +289,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/cloud/gcp/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -367,7 +315,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/elk/kibana/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -380,7 +328,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/container/kubernetes/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -393,7 +341,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/elk/logstash/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -406,7 +354,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/database/mongodb/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -419,7 +367,7 @@
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/posts/database/mysql/</loc>
-    <lastmod>2022-04-23T00:59:39+09:00</lastmod>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -431,121 +379,17 @@
                 href="https://younsiktech.github.io/kr/posts/database/mysql/"
                 />
   </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/</loc>
-    <lastmod>2022-04-15T16:38:59+09:00</lastmod>
+    <loc>https://younsiktech.github.io/kr/posts/troubleshooting/notyet/</loc>
+    <lastmod>2022-04-23T02:25:04+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://younsiktech.github.io/posts/"
+                href="https://younsiktech.github.io/posts/troubleshooting/notyet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/</loc>
-    <lastmod>2022-04-23T00:52:54+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-base/</loc>
-    <lastmod>2022-04-23T00:33:20+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-base/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-base/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-boot/</loc>
-    <lastmod>2022-04-23T00:52:54+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-boot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-boot/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-cloud/</loc>
-    <lastmod>2022-04-23T00:52:54+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-cloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-cloud/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/</loc>
-    <lastmod>2022-04-23T01:01:52+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-data/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-data/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/jdbc/</loc>
-    <lastmod>2022-04-23T01:03:31+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-data/jdbc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-data/jdbc/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/jpa/</loc>
-    <lastmod>2022-04-23T01:03:31+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-data/jpa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-data/jpa/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/redis/</loc>
-    <lastmod>2022-04-23T01:03:31+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/posts/spring/spring-data/redis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/posts/spring/spring-data/redis/"
+                href="https://younsiktech.github.io/kr/posts/troubleshooting/notyet/"
                 />
   </url><url>
     <loc>https://younsiktech.github.io/kr/notes/</loc>
@@ -561,17 +405,186 @@
                 href="https://younsiktech.github.io/kr/notes/"
                 />
   </url><url>
-    <loc>https://younsiktech.github.io/kr/notes/bash/</loc>
+    <loc>https://younsiktech.github.io/kr/posts/</loc>
     <lastmod>2022-04-15T16:38:59+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://younsiktech.github.io/notes/bash/"
+                href="https://younsiktech.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="https://younsiktech.github.io/kr/notes/bash/"
+                href="https://younsiktech.github.io/kr/posts/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/troubleshooting/solved/</loc>
+    <lastmod>2022-04-23T02:24:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/troubleshooting/solved/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/troubleshooting/solved/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-base/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-base/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-base/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-boot/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-boot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-boot/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-cloud/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-cloud/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-data/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/jdbc/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-data/jdbc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-data/jdbc/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/jpa/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-data/jpa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-data/jpa/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/spring/spring-data/redis/</loc>
+    <lastmod>2022-04-23T01:56:27+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/spring/spring-data/redis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/spring/spring-data/redis/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/tip-and-trick/tip/</loc>
+    <lastmod>2022-04-23T02:21:45+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/tip-and-trick/tip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/tip-and-trick/tip/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/tip-and-trick/</loc>
+    <lastmod>2022-04-23T02:25:52+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/tip-and-trick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/tip-and-trick/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/tip-and-trick/trick/</loc>
+    <lastmod>2022-04-23T02:29:04+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/tip-and-trick/trick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/tip-and-trick/trick/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/kr/posts/troubleshooting/</loc>
+    <lastmod>2022-04-23T02:25:52+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/troubleshooting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/troubleshooting/"
                 />
   </url>
 </urlset>
