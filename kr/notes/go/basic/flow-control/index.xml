@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ফ্লো কন্ট্রোল on Younsik.Tech</title>
+    <link>https://younsiktech.github.io/kr/notes/go/basic/flow-control/</link>
+    <description>Recent content in ফ্লো কন্ট্রোল on Younsik.Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language><atom:link href="https://younsiktech.github.io/kr/notes/go/basic/flow-control/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring Cloud on Younsik.Tech</title>
+    <link>https://younsiktech.github.io/kr/posts/spring/spring-cloud/</link>
+    <description>Recent content in Spring Cloud on Younsik.Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language><atom:link href="https://younsiktech.github.io/kr/posts/spring/spring-cloud/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Cloud Sample</title>
+      <link>https://younsiktech.github.io/kr/posts/spring/spring-cloud/cloud-sample/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>https://younsiktech.github.io/kr/posts/spring/spring-cloud/cloud-sample/</guid>
+      <description>This sample post tests the followings:
+ Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc.  Image Sample  Tweet Sample Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
+&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021   YouTube Video Sample    Vimeo Video Sample   </description>
+    </item>
+    
+    
+  </channel>
+</rss>
