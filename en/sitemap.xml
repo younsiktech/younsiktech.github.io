@@ -143,6 +143,136 @@
     <lastmod>2022-03-21T02:34:40+09:00</lastmod>
     <priority>0.1</priority>
   </url><url>
+    <loc>https://younsiktech.github.io/categories/basic/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/categories/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/categories/basic/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/categories/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/tags/homebrew/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/tags/homebrew/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/tags/homebrew/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/posts/tip-and-trick/tip/install-iterm2-homebrew/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/posts/tip-and-trick/tip/install-iterm2-homebrew/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/posts/tip-and-trick/tip/install-iterm2-homebrew/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/tags/intel/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/tags/intel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/tags/intel/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/tags/iterm2/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/tags/iterm2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/tags/iterm2/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/tags/m1/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/tags/m1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/tags/m1/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/tags/mac/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/tags/mac/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/tags/mac/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/tags/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://younsiktech.github.io/</loc>
+    <lastmod>2022-04-23T23:36:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://younsiktech.github.io/kr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://younsiktech.github.io/"
+                />
+  </url><url>
     <loc>https://younsiktech.github.io/posts/spring/spring-base/base-sample/</loc>
     <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
@@ -169,19 +299,6 @@
                 href="https://younsiktech.github.io/tags/basic/"
                 />
   </url><url>
-    <loc>https://younsiktech.github.io/categories/basic/</loc>
-    <lastmod>2022-04-23T02:32:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/categories/basic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/categories/basic/"
-                />
-  </url><url>
     <loc>https://younsiktech.github.io/posts/spring/spring-boot/boot-sample/</loc>
     <lastmod>2022-04-23T01:56:27+09:00</lastmod>
     <xhtml:link
@@ -193,19 +310,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://younsiktech.github.io/posts/spring/spring-boot/boot-sample/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/categories/</loc>
-    <lastmod>2022-04-23T02:32:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/categories/"
                 />
   </url><url>
     <loc>https://younsiktech.github.io/posts/spring/spring-cloud/cloud-sample/</loc>
@@ -271,32 +375,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://younsiktech.github.io/posts/smalltalk/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/tags/</loc>
-    <lastmod>2022-04-23T02:32:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/tags/"
-                />
-  </url><url>
-    <loc>https://younsiktech.github.io/</loc>
-    <lastmod>2022-04-23T02:32:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://younsiktech.github.io/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://younsiktech.github.io/"
                 />
   </url><url>
     <loc>https://younsiktech.github.io/posts/cloud/aws/</loc>

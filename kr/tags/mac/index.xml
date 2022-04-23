@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Younsik.Tech</title>
+    <link>https://younsiktech.github.io/kr/tags/mac/</link>
+    <description>Recent content in Mac on Younsik.Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 23 Apr 2022 23:00:45 +0900</lastBuildDate><atom:link href="https://younsiktech.github.io/kr/tags/mac/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Iterm2 &amp; Homebrew 설치</title>
+      <link>https://younsiktech.github.io/kr/posts/tip-and-trick/tip/install-iterm2-homebrew/</link>
+      <pubDate>Sat, 23 Apr 2022 23:00:45 +0900</pubDate>
+      
+      <guid>https://younsiktech.github.io/kr/posts/tip-and-trick/tip/install-iterm2-homebrew/</guid>
+      <description>NOTICE 2022.04.06. 기준으로 M1 Mac &amp;amp; Intel Mac 설치 과정이 동일함
+Iterm2 설치 1. 다음 공식 사이트에 접속해서 최신 버전을 다운로드 받습니다 2. DMG 파일을 설치합니다 3. Iterm2 Preference 세팅을 합니다 (선택 &amp;amp; 원하는 값으로 변경) 1) 제목 표시줄 스타일 변경 Appearance &amp;gt; Theme: Minimal 2) 제목 표시줄 아래 1px 라인 제거 Appearance &amp;gt; Windows &amp;gt; Show line under title bar when the tab bar is not visible: Don&amp;#39;t Check 3) Text 관련 세팅 (폰트, 자간 etc.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intel on Younsik.Tech</title>
+    <link>https://younsiktech.github.io/tags/intel/</link>
+    <description>Recent content in Intel on Younsik.Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 23 Apr 2022 23:00:45 +0900</lastBuildDate><atom:link href="https://younsiktech.github.io/tags/intel/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Install Iterm2 &amp; Homebrew</title>
+      <link>https://younsiktech.github.io/posts/tip-and-trick/tip/install-iterm2-homebrew/</link>
+      <pubDate>Sat, 23 Apr 2022 23:00:45 +0900</pubDate>
+      
+      <guid>https://younsiktech.github.io/posts/tip-and-trick/tip/install-iterm2-homebrew/</guid>
+      <description>NOTICE M1 Mac &amp;amp; Intel Mac have same steps at 2022.04.06.
+Install Iterm2 1. Move to official site and download current version 2. Install downloaded DMG 3. Iterm2 Preference Setting (Optional &amp;amp; Choice your prefer) 1) Title bar style Appearance &amp;gt; Theme: Minimal 2) 1px line remove under the Title bar Appearance &amp;gt; Windows &amp;gt; Show line under title bar when the tab bar is not visible: Don&amp;#39;t Check 3) Change Text Settings Profiles &amp;gt; Text : Mostly font size 4) Change Margin Appearance &amp;gt; Panes &amp;gt; Side margins: 12 Appearance &amp;gt; Panes &amp;gt; Top &amp;amp; bottom margins: 10 5) Remove Tab outline Advanced &amp;gt; In minimal theme, how prominent should the tab outline be?</description>
+    </item>
+    
+    
+  </channel>
+</rss>

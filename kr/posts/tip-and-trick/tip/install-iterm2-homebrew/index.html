@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Iterm2 &amp; Homebrew 설치</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+
+
+<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu292e2a794dd5daf8eadf657e4020a281_5324_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Iterm2 &amp; Homebrew 설치" />
+<meta property="og:description" content="Iterm2 installation on Mac" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://younsiktech.github.io/kr/posts/tip-and-trick/tip/install-iterm2-homebrew/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-23T23:00:45+09:00" />
+<meta property="article:modified_time" content="2022-04-23T23:36:43+09:00" />
+
+
+
+    
+    
+<meta name="description" content="Iterm2 installation on Mac" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+
+    
+        
+        
+            
+            
+            
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1V4VPZ6FDF"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-1V4VPZ6FDF', { 'anonymize_ip': false });
+}
+</script>
+
+        
+
+        
+        
+
+        
+        
+    
+
+
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/kr">
+      
+        <img src="/images/site/main-logo_huc4f86a1eb5744acbea2a09afa9ea84da_94384_42x0_resize_box_3.png" alt="Logo">
+      Younsik.Tech</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-kr"></span>
+      Korean
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/posts/tip-and-trick/tip/install-iterm2-homebrew">
+          
+          <span class="flag-icon flag-icon-us"></span>
+          English
+        </a>
+      
+    </div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/main-logo_huc4f86a1eb5744acbea2a09afa9ea84da_94384_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/inverted-logo_huc4f86a1eb5744acbea2a09afa9ea84da_94384_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/kr/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/kr/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/smalltalk/" title="Small Talk">Small Talk</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/cloud/">Cloud</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/cloud/aws/" title="AWS">AWS</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/cloud/gcp/" title="GCP">GCP</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/container/">Container</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/container/docker/" title="Docker">Docker</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/container/kubernetes/" title="Kubernetes">Kubernetes</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/database/">Database</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/database/mongodb/" title="MongoDB">MongoDB</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/database/mysql/" title="MySQL">MySQL</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/elk/">ELK</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/elk/elasticsearch/" title="Elasticsearch">Elasticsearch</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/elk/kibana/" title="Kibana">Kibana</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/elk/logstash/" title="Logstash">Logstash</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/spring/">Spring</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/spring/spring-base/">Spring Base</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/spring/spring-base/base-sample/" title="Base Sample">Base Sample</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/spring/spring-boot/">Spring Boot</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/spring/spring-boot/boot-sample/" title="Boot Sample">Boot Sample</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/spring/spring-cloud/">Spring Cloud</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/spring/spring-cloud/cloud-sample/" title="Cloud Sample">Cloud Sample</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/spring/spring-data/">Spring Data</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/spring/spring-data/jdbc/" title="Spring Data Jdbc">Spring Data Jdbc</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/spring/spring-data/jpa/" title="Spring Data Jpa">Spring Data Jpa</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/spring/spring-data/redis/" title="Spring Data Redis">Spring Data Redis</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/kr/posts/tip-and-trick/">Tip &amp; Trick</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/kr/posts/tip-and-trick/tip/">Tip</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/kr/posts/tip-and-trick/tip/install-iterm2-homebrew/" title="Iterm2 &amp; Homebrew 설치">Iterm2 &amp; Homebrew 설치</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/tip-and-trick/trick/" title="Trick">Trick</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/kr/posts/troubleshooting/">Troubleshooting</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/troubleshooting/notyet/" title="Not Yet">Not Yet</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/kr/posts/troubleshooting/solved/" title="Solved">Solved</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://younsiktech.github.io/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/author.gif' alt="Author Image">
+          <h5 class="author-name">최연식</h5>
+          <p>Saturday, April 23, 2022</p>
+        </div>
+
+        <div class="title">
+          <h1>Iterm2 &amp; Homebrew 설치</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+            <ul>
+            
+            
+            <li class="rounded"><a href="/kr/tags/iterm2" class="btn, btn-sm">Iterm2</a></li>
+            
+            
+            <li class="rounded"><a href="/kr/tags/mac" class="btn, btn-sm">Mac</a></li>
+            
+            
+            <li class="rounded"><a href="/kr/tags/m1" class="btn, btn-sm">M1</a></li>
+            
+            
+            <li class="rounded"><a href="/kr/tags/intel" class="btn, btn-sm">Intel</a></li>
+            
+            
+            <li class="rounded"><a href="/kr/tags/homebrew" class="btn, btn-sm">Homebrew</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <h2 id="notice">NOTICE</h2>
+<p>2022.04.06. 기준으로 M1 Mac &amp; Intel Mac 설치 과정이 동일함</p>
+<h2 id="iterm2-설치">Iterm2 설치</h2>
+<h3 id="1-다음-공식-사이트httpsiterm2com에-접속해서-최신-버전을-다운로드-받습니다">1. 다음 <a href="https://iterm2.com">공식 사이트</a>에 접속해서 최신 버전을 다운로드 받습니다</h3>
+<h3 id="2-dmg-파일을-설치합니다">2. DMG 파일을 설치합니다</h3>
+<h3 id="3-iterm2-preference-세팅을-합니다-선택--원하는-값으로-변경">3. Iterm2 Preference 세팅을 합니다 (선택 &amp; 원하는 값으로 변경)</h3>
+<h4 id="1-제목-표시줄-스타일-변경">1) 제목 표시줄 스타일 변경</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Appearance &gt; Theme: Minimal 
+</span></span></code></pre></div><h4 id="2-제목-표시줄-아래-1px-라인-제거">2) 제목 표시줄 아래 1px 라인 제거</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Appearance &gt; Windows &gt; Show line under title bar when the tab bar is not visible: Don&#39;t Check
+</span></span></code></pre></div><h4 id="3-text-관련-세팅-폰트-자간-etc">3) Text 관련 세팅 (폰트, 자간 etc.)</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Profiles &gt; Text : Mostly font size
+</span></span></code></pre></div><h4 id="4-여백-변경">4) 여백 변경</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Appearance &gt; Panes &gt; Side margins: 12
+</span></span><span style="display:flex;"><span>Appearance &gt; Panes &gt; Top &amp; bottom margins: 10
+</span></span></code></pre></div><h4 id="5-탭-선-제거">5) 탭 선 제거</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Advanced &gt; In minimal theme, how prominent should the tab outline be?: 0
+</span></span></code></pre></div><h4 id="6-unicode-설정-한글-깨짐-이슈-해결">6) Unicode 설정 (한글 깨짐 이슈 해결)</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Profiles &gt; Text &gt; Unicode normalization form: NFC
+</span></span></code></pre></div><h4 id="7-상태바-활성화">7) 상태바 활성화</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Preferences &gt; Profiles &gt; Session &gt; Status bar enabled
+</span></span></code></pre></div><h4 id="8-상태바-위치-변경">8) 상태바 위치 변경</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Preferences &gt; Appearance &gt; Status bar location
+</span></span></code></pre></div><h2 id="homebrew-설치-iterm2에서-작업">Homebrew 설치 (Iterm2에서 작업)</h2>
+<h3 id="1-command-line-tool-설치">1. Command Line Tool 설치</h3>
+<p>다음 명령어를 입력합니다</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>xcode-select --install
+</span></span></code></pre></div><p>최신 버전이면 설치 과정이 없습니다</p>
+<h3 id="2-homebrew-설치">2. HomeBrew 설치</h3>
+<p>다음 명령어를 입력합니다</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>/usr/bin/ruby -e <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><h3 id="3-홈-디렉토리의-zprofile-파일을-엽니다">3. 홈 디렉토리의 .zprofile 파일을 엽니다</h3>
+<p>vim 명령어를 이용해 .zprofile 파일을 엽니다</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vim ~/.zprofile
+</span></span></code></pre></div><h3 id="4-zprofile에-다음-줄을-추가합니다">4. .zprofile에 다음 줄을 추가합니다</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>/opt/homebrew/bin/brew shellenv<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><h3 id="5-brew-설정을-합니다">5. Brew 설정을 합니다</h3>
+<p>다음 명령어를 Iterm2에서 실행하거나 Iterm2를 닫고 다시 엽니다</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>/opt/homebrew/bin/brew shellenv<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><h2 id="brew-설치-추천-목록">Brew 설치 추천 목록</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># font</span>
+</span></span><span style="display:flex;"><span>brew install homebrew/cask-fonts/font-d2coding
+</span></span><span style="display:flex;"><span>brew install homebrew/cask-fonts/font-jetbrains-mono
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># iterm</span>
+</span></span><span style="display:flex;"><span>brew install neofetch
+</span></span><span style="display:flex;"><span>brew install jq
+</span></span><span style="display:flex;"><span>brew install rg
+</span></span><span style="display:flex;"><span>brew install lsd
+</span></span><span style="display:flex;"><span>brew install tree
+</span></span><span style="display:flex;"><span>brew install fasd
+</span></span></code></pre></div>
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Share on:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fyounsiktech.github.io%2fkr%2fposts%2ftip-and-trick%2ftip%2finstall-iterm2-homebrew%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fyounsiktech.github.io%2fkr%2fposts%2ftip-and-trick%2ftip%2finstall-iterm2-homebrew%2f&text=Iterm2%20%26%20Homebrew%20%ec%84%a4%ec%b9%98&via=Younsik.Tech" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fyounsiktech.github.io%2fkr%2fposts%2ftip-and-trick%2ftip%2finstall-iterm2-homebrew%2f&title=Iterm2%20%26%20Homebrew%20%ec%84%a4%ec%b9%98" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fyounsiktech.github.io%2fkr%2fposts%2ftip-and-trick%2ftip%2finstall-iterm2-homebrew%2f&title=Iterm2%20%26%20Homebrew%20%ec%84%a4%ec%b9%98" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Iterm2%20%26%20Homebrew%20%ec%84%a4%ec%b9%98 https%3a%2f%2fyounsiktech.github.io%2fkr%2fposts%2ftip-and-trick%2ftip%2finstall-iterm2-homebrew%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=Iterm2%20%26%20Homebrew%20%ec%84%a4%ec%b9%98&body=https%3a%2f%2fyounsiktech.github.io%2fkr%2fposts%2ftip-and-trick%2ftip%2finstall-iterm2-homebrew%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/younsiktech/younsiktech.github.io/edit/main/content/posts/tip-and-trick/tip/install-iterm2-homebrew/index.kr.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/kr/posts/spring/spring-data/redis/" title="Spring Data Redis" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Spring Data Redis</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/kr/posts/tip-and-trick/trick/" title="Trick" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Trick</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+        
+          
+          
+              
+
+
+
+<div id="utteranc_thread"></div>
+<div id="comments" class="comments">
+    <div id="comments-container"></div>
+</div>
+<script type="text/javascript">
+    (function() {
+        var utterances = document.createElement('script');
+        utterances.type = 'text/javascript';
+        utterances.async = true;
+        utterances.setAttribute('repo','younsiktech\/blog-comments')
+        utterances.setAttribute('issue-term','pathname')
+        utterances.setAttribute('theme','github-light')
+        utterances.crossorigin = 'anonymous';
+        utterances.src = 'https://utteranc.es/client.js';
+
+        document.getElementById('comments-container').appendChild(utterances);
+    })();
+</script>
+
+          
+          
+        
+      
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <span class="flag-icon flag-icon-kr"></span>
+        Korean
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/posts/tip-and-trick/tip/install-iterm2-homebrew">
+            
+            <span class="flag-icon flag-icon-us"></span>
+            English
+        </a>
+        
+    </div>
+</div>
+
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#notice">NOTICE</a></li>
+    <li><a href="#iterm2-설치">Iterm2 설치</a>
+      <ul>
+        <li><a href="#1-다음-공식-사이트httpsiterm2com에-접속해서-최신-버전을-다운로드-받습니다">1. 다음 <a href="https://iterm2.com">공식 사이트</a>에 접속해서 최신 버전을 다운로드 받습니다</a></li>
+        <li><a href="#2-dmg-파일을-설치합니다">2. DMG 파일을 설치합니다</a></li>
+        <li><a href="#3-iterm2-preference-세팅을-합니다-선택--원하는-값으로-변경">3. Iterm2 Preference 세팅을 합니다 (선택 &amp; 원하는 값으로 변경)</a>
+          <ul>
+            <li><a href="#1-제목-표시줄-스타일-변경">1) 제목 표시줄 스타일 변경</a></li>
+            <li><a href="#2-제목-표시줄-아래-1px-라인-제거">2) 제목 표시줄 아래 1px 라인 제거</a></li>
+            <li><a href="#3-text-관련-세팅-폰트-자간-etc">3) Text 관련 세팅 (폰트, 자간 etc.)</a></li>
+            <li><a href="#4-여백-변경">4) 여백 변경</a></li>
+            <li><a href="#5-탭-선-제거">5) 탭 선 제거</a></li>
+            <li><a href="#6-unicode-설정-한글-깨짐-이슈-해결">6) Unicode 설정 (한글 깨짐 이슈 해결)</a></li>
+            <li><a href="#7-상태바-활성화">7) 상태바 활성화</a></li>
+            <li><a href="#8-상태바-위치-변경">8) 상태바 위치 변경</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#homebrew-설치-iterm2에서-작업">Homebrew 설치 (Iterm2에서 작업)</a>
+      <ul>
+        <li><a href="#1-command-line-tool-설치">1. Command Line Tool 설치</a></li>
+        <li><a href="#2-homebrew-설치">2. HomeBrew 설치</a></li>
+        <li><a href="#3-홈-디렉토리의-zprofile-파일을-엽니다">3. 홈 디렉토리의 .zprofile 파일을 엽니다</a></li>
+        <li><a href="#4-zprofile에-다음-줄을-추가합니다">4. .zprofile에 다음 줄을 추가합니다</a></li>
+        <li><a href="#5-brew-설정을-합니다">5. Brew 설정을 합니다</a></li>
+      </ul>
+    </li>
+    <li><a href="#brew-설치-추천-목록">Brew 설치 추천 목록</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://younsiktech.github.io/kr/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://younsiktech.github.io/kr/#experiences">Experiences</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://younsiktech.github.io/kr/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://younsiktech.github.io/kr/#education">Education</a>
+                </li>
+              
+              
+              
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="https://younsik-tech.tistory.com">Tistory</a>
+                    </li>
+                
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="https://younsiktech.github.io/tags">Tags</a>
+                    </li>
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:younsik.tech@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>younsik.tech@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/younsiktech target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>younsiktech</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2022 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
